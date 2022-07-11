@@ -7,6 +7,7 @@
 body{
   background-image: url(image/ok.jpg);
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .login-form{
