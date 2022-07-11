@@ -7,7 +7,7 @@
 body{
   background-image: url(image/ok.jpg);
   background-size: cover;
-  background-repeat: no-repeat;
+  background-position: 0rem;
 }
 
 .login-form{
@@ -52,4 +52,11 @@ button{
   border: 0;
   cursor: pointer;
   background-color:aquamarine;
+}
+
+@media screen and (max-width) {
+  body{
+    background-size: cover;
+  }
+  
 }
